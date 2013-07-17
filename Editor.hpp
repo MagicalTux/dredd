@@ -8,5 +8,5 @@ public:
 
 private:
 	Ui_Editor ui;
-}
+};
 

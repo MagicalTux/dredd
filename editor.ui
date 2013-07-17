@@ -2181,22 +2181,22 @@ p, li { white-space: pre-wrap; }
   <customwidget>
    <class>KeywordEdit</class>
    <extends>QTextEdit</extends>
-   <header>keywordedit</header>
+   <header>KeywordEdit.hpp</header>
   </customwidget>
   <customwidget>
    <class>ReferenceEdit</class>
    <extends>QTextEdit</extends>
-   <header>referenceedit</header>
+   <header>ReferenceEdit.hpp</header>
   </customwidget>
   <customwidget>
    <class>SuperButton</class>
    <extends>QPushButton</extends>
-   <header>superbutton</header>
+   <header>SuperButton.hpp</header>
   </customwidget>
   <customwidget>
    <class>SmartTextEdit</class>
    <extends>QTextEdit</extends>
-   <header>smarttextedit</header>
+   <header>SmartTextEdit.hpp</header>
   </customwidget>
  </customwidgets>
  <tabstops>
