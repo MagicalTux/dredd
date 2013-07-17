@@ -6,6 +6,9 @@ class OpenDialog: public QDialog {
 public:
 	OpenDialog();
 
+public slots:
+	void openFile();
+
 private:
 	Ui_OpenDialog ui;
 };
