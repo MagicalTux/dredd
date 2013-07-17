@@ -8,6 +8,9 @@ public:
 
 public slots:
 	void openFile();
+	void browseIsoFile();
+	void browseProjectDir();
+	void accept();
 
 private:
 	Ui_OpenDialog ui;

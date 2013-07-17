@@ -61,7 +61,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit">
+        <widget class="QLineEdit" name="isoFile">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -108,7 +108,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_2">
+        <widget class="QLineEdit" name="projectDir">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -210,8 +210,42 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>OpenDialog</receiver>
+   <slot>browseIsoFile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>508</x>
+     <y>81</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>504</x>
+     <y>94</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>OpenDialog</receiver>
+   <slot>browseProjectDir()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>515</x>
+     <y>133</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>520</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>openFile()</slot>
+  <slot>browseIsoFile()</slot>
+  <slot>browseProjectDir()</slot>
  </slots>
 </ui>

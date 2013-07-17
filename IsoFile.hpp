@@ -4,9 +4,10 @@
 class IsoFile: public QObject {
 	Q_OBJECT;
 public:
-	IsoFile(QFile);
+	IsoFile(const QString&filename);
+	~IsoFile();
 
 private:
-	QFile *file;
+	QFile file;
 };
 
